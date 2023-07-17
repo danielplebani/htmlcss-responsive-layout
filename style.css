@@ -7,11 +7,11 @@
 
 
 :root{
-    -bc--header-blue: #0084fd;
-    -bc--demo_application-card-lightblue: #b5ddff;
-    -col--demo_application-card-blue: #0084fd;
-    -bc--strategic_planning-lilac: #9792e4;
-    -bc-footer-brown/grey: #333333;
+    --bc--header-blue: #0084fd;
+    --bc--demo_application-card-lightblue: #b5ddff;
+    --col--demo_application-card-blue: #0084fd;
+    --bc--strategic_planning-lilac: #9792e4;
+    --bc-footer-brown-grey: #333333;
 }
 
 /*startregion utility*/
@@ -350,8 +350,6 @@ header>i{
 
 
 /*startregion main*/
-
-
 /*startsection demo_application*/
 
 .demo_application .col, .demo_application .card{
@@ -460,13 +458,55 @@ header>i{
     border-radius: 40px;
 }
 /*endsection  get_started*/
-
 /*endregion main*/
 
 
 /*startregion footer*/
 footer{
-    background-color: #333333;
+    background-color: var(--bc-footer-brown-grey);
     color: rgba(255, 255, 255, 0.558);
 }
 /*endregion footer*/
+
+
+/*STARTREPO TABLET*/
+@media screen and (min-width: 481px) and (max-width:768px){
+}
+/*ENDREPO TABLET*/
+
+
+
+/*STARTREPO DESKTOP*/
+@media screen and (min-width: 769px){
+    
+/*startregion utility*/
+.dsk-dis-flex{
+    display: flex;
+}
+
+.dsk-dis-none{
+    display: none;
+}
+/*endregion utility*/
+
+/*startregion header*/
+nav{
+    width: 40%;
+}
+
+nav .last_col a{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav .col a{
+    color: white;
+}
+
+
+/*endregion header*/
+
+}
+/*ENDREPO DESKTOP*/
