@@ -246,6 +246,10 @@
     margin-bottom: 40px;
 }
 
+.mb-100px{
+    margin-bottom: 100px;
+}
+
 .mb-30px{
     margin-bottom: 30px;
 }
@@ -455,7 +459,7 @@ header>i{
     color: white;
 }
 
-.get_started span a{
+.get_started div a{
     color: #9792e4;
     background-color: white;
     padding: 15px 80px;
