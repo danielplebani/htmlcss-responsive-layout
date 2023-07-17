@@ -156,6 +156,10 @@
     font-size: 30px;
 }
 
+.fs-35px{
+    font-size: 35px;
+}
+
 .wid-30pc{
     width: 30%;
 }
@@ -342,10 +346,8 @@ header>i{
 
 /*startregion main*/
 
+
 /*startsection demo_application*/
-.demo_application{
-    height: 2000px;;
-}
 
 .demo_application .col, .demo_application .card{
     background-color: #b5ddff;
@@ -358,11 +360,11 @@ header>i{
 }
 
 .demo_application .col button{
-    height: 40px;
     width: 80%;
     background-color: #0084fd;
     border-radius: 20px;
     color: white;
+    padding: 10px;
 }
 
 .demo_application .col button span{
@@ -372,10 +374,57 @@ header>i{
 
 /*startsection strategic_planning*/
 .strategic_planning{
-    height: 1500px;
     background-color: #9792e4;
 }
+
+.strategic_planning .plan1{
+    color: white;
+}
+
+.strategic_planning .plan2{
+    background-color: white;
+    border-radius: 60px;
+}
+
+.strategic_planning .plan2 i{
+    background-color: #9792e4;
+    padding: 20px;
+}
 /*endsection strategic_planning*/
+
+/*startsection testimonials*/
+.testimonials .card{
+    background-color: #9792e4;
+    border-radius: 20px;
+}
+/*endsection testimonials*/
+
+/*startsection benefits*/
+.benefits{
+    background-color: #9792e4;
+}
+
+.benefits .card{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.benefits .card a{
+    background-color: #9792e4;
+    padding: 7px 35px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+}
+/*endsection benefits*/
+
+/*startsection  about_us*/
+.about_us p{
+    line-height: 35px;
+}
+/*endsection  about_us*/
+
+
 
 /*endregion main*/
 
