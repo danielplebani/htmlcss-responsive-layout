@@ -10,6 +10,7 @@
     -bc--header-blue: #0084fd;
     -bc--demo_application-card-lightblue: #b5ddff;
     -col--demo_application-card-blue: #0084fd;
+    -bc--strategic_planning-lilac: #9792e4;
 }
 
 /*startregion utility*/
@@ -199,8 +200,8 @@
     height: 30%;
 }
 
-.hei-70div4{
-    height: calc(70% / 4);
+.hei-65div4{
+    height: calc(65% / 4);
 }
 
 .hei-500px{
@@ -252,6 +253,10 @@
     margin-right: 5px;
 }
 
+.mr-10px{
+    margin-right: 10px;
+}
+
 .pad-10px{
     padding: 10px;
 }
@@ -296,6 +301,7 @@
     padding-bottom: 5px;
 }
 
+
 .pb-10px{
     padding-bottom: 10px;
 }
@@ -306,6 +312,14 @@
 
 .prl-40px{
     padding: 0 40px;
+}
+
+.pr-20px{
+    padding-right: 20px;
+}
+
+.pl-20px{
+    padding-left: 20px;
 }
 /*endregion utility*/
 
@@ -327,19 +341,42 @@ header>i{
 
 
 /*startregion main*/
+
+/*startsection demo_application*/
 .demo_application{
     height: 2000px;;
 }
 
-.demo_application .col{
+.demo_application .col, .demo_application .card{
     background-color: #b5ddff;
     border-radius: 30px;
 }
 
-.demo_application .col i{
+.demo_application .card i{
     color: #0084fd;
     font-size: 100px;
 }
+
+.demo_application .col button{
+    height: 40px;
+    width: 80%;
+    background-color: #0084fd;
+    border-radius: 20px;
+    color: white;
+}
+
+.demo_application .col button span{
+    letter-spacing: 4px;
+}
+/*endsection demo_application*/
+
+/*startsection strategic_planning*/
+.strategic_planning{
+    height: 1500px;
+    background-color: #9792e4;
+}
+/*endsection strategic_planning*/
+
 /*endregion main*/
 
 
