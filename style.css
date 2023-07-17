@@ -8,7 +8,8 @@
 
 :root{
     -bc--header-blue: #0084fd;
-
+    -bc--demo_application-card-lightblue: #b5ddff;
+    -col--demo_application-card-blue: #0084fd;
 }
 
 /*startregion utility*/
@@ -194,6 +195,14 @@
     height: 100%;
 }
 
+.hei-30pc{
+    height: 30%;
+}
+
+.hei-70div4{
+    height: calc(70% / 4);
+}
+
 .hei-500px{
     height: 500px;
 }
@@ -245,6 +254,10 @@
 
 .pad-10px{
     padding: 10px;
+}
+
+.pad-20px{
+    padding: 20px;
 }
 
 .ptb-10px{
@@ -314,6 +327,19 @@ header>i{
 
 
 /*startregion main*/
+.demo_application{
+    height: 2000px;;
+}
+
+.demo_application .col{
+    background-color: #b5ddff;
+    border-radius: 30px;
+}
+
+.demo_application .col i{
+    color: #0084fd;
+    font-size: 100px;
+}
 /*endregion main*/
 
 
