@@ -197,6 +197,10 @@
     width: 100%;
 }
 
+.wid-70div5{
+    width: calc(70% / 5);
+}
+
 .wid-50pc{
     width: 50%;
 }
@@ -256,6 +260,10 @@
 
 .mrl-20px{
     margin:0 20px;
+}
+
+.mrl-3pc{
+    margin:0 3%;
 }
 
 .mrl-40px{
@@ -442,8 +450,8 @@ header i{
 
 .about_us i{
     top: 0;
-    right: 15px;
-    font-size: 60px;
+    right: 0;
+    font-size: 30px;
 }
 
 .about_us .col a{
@@ -547,15 +555,31 @@ footer{
 
 
 /*STARTREPO DESKTOP*/
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1152px){
     
 /*startregion utility*/
 .dsk-dis-flex{
     display: flex;
 }
 
+.dsk-jc-flex-start{
+    justify-content: flex-start;
+}
+
+.dsk-hei-100pc{
+    height: 100%;
+}
+
 .dsk-wid-60pc{
     width: 70%;
+}
+
+.dsk-dis-block{
+    display: block;
+}
+
+.dsk-ai-end{
+    align-items: flex-end;
 }
 
 .dsk-pad-0{
@@ -664,6 +688,10 @@ footer{
 
 .dsk-mt-50px{
     margin-top: 50px;
+}
+
+.dsk-mb-20px{
+    margin-bottom: 20px;
 }
 /*endregion utility*/
 
