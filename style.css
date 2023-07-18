@@ -21,10 +21,6 @@
     clear: both;
 }
 
-.va-bottom{
-    vertical-align: bottom;
-}
-
 .td-none{
     text-decoration: none;
 }
@@ -39,6 +35,10 @@
 
 .of-contain{
     object-fit: contain;
+}
+
+.of-cover{
+    object-fit: cover;
 }
 
 .cur-pointer{
@@ -339,8 +339,7 @@
     padding-left: 20px;
 }
 /*endregion utility*/
-
-
+ 
 /*startregion header*/
 header{
     background-color: #0084fd;
@@ -476,9 +475,65 @@ footer{
 }
 /*endregion footer*/
 
+/*ENDREPO MOBILE*/
+
 
 /*STARTREPO TABLET*/
 @media screen and (min-width: 481px) and (max-width:768px){
+
+/*startregion utility*/
+.tab-dis-flex{
+    display: flex;
+}
+
+.tab-fw-wrap{
+    flex-wrap: wrap;
+}
+
+.tab-wid-33pc{
+    width: 33%;
+}
+
+.tab-wid-50pc{
+    width: 50%;
+}
+
+.tab-wid-65pc{
+    width: 65%;
+}
+
+.tab-wid-96div3{
+    width: calc(96% / 3);
+}
+
+.tab-wid-98div2{
+    width: calc(98% / 2);
+}
+
+.tab-mr-2pc{
+    margin-right: 2%;
+}
+
+.tab-prl-50px{
+    padding: 0 50px;
+}
+
+.tab-mt-50px{
+    margin-top: 50px;
+}
+
+.tab-jc-flex-start{
+    justify-content: flex-start;
+}
+
+.tab-jc-space-between{
+    justify-content: space-between;
+}
+
+.tab-ta-start{
+    text-align: start;
+}
+/*endregion utility*/
 }
 /*ENDREPO TABLET*/
 
